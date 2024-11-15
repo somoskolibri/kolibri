@@ -1,6 +1,12 @@
-- name: Home
+- name: Inicio
   link: /
-- name: Blog
-  link: /blog.html
-- name: About
-  link: /about.html
+- name: Nuestra historia
+  link: /nuestrahistoria.html
+- name: Personas
+  link: /personas.html
+- name: Empresas
+  link: /empresas.html
+- name: Escuelas y colegios
+  link: /escuelasycolegios.html
+- name: Biblioteca
+  link: /biblioteca.html
