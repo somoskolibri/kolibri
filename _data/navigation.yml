@@ -1,12 +1,11 @@
 - name: Inicio
   link: /
-- name: Nuestra historia
-  link: /nuestrahistoria.html
-- name: Personas
-  link: /personas.html
+- name: Sesiones 1:1
+  link: /sesiones.html
+- name: Academia virtual
+  link: /academiavirtual.html
 - name: Empresas
   link: /empresas.html
-- name: Escuelas y colegios
-  link: /escuelasycolegios.html
-- name: Biblioteca
-  link: /biblioteca.html
+- name: Podcast & Blog
+  link: /blog.html
+
