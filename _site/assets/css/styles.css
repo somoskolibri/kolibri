@@ -60,7 +60,9 @@
 
 #featureContainer .card {
   border: 0;
-  position: relative; }
+  position: relative;
+  background-color: transparent;
+  border-color: transparent; }
 
 #featureContainer .card .card-img {
   background-color: #ffeee8;
