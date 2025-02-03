@@ -24,6 +24,14 @@
   position: absolute;
   top: 40%; }
 
+.sk_button_fucsia {
+  background-color: #BB0081 !important;
+  border-color: #BB0081 !important; }
+
+.sk_button_verde {
+  background-color: #00d876 !important;
+  border-color: #00d876 !important; }
+
 #featureContainer .carousel-inner .carousel-item.active,
 #featureContainer .carousel-inner .carousel-item-next,
 #featureContainer .carousel-inner .carousel-item-prev {
