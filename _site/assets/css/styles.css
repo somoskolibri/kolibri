@@ -88,3 +88,22 @@
 #footer_menu .list-group-item {
   background-color: transparent;
   border: none; }
+
+#plan1_questions span {
+  background-color: #d24b95;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px; }
+
+#plan2_questions span {
+  background-color: #00d876;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px; }

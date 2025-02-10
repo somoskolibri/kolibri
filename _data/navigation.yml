@@ -2,10 +2,10 @@
   link: /
 - name: Planes 1:1
   link: /planes.html
-- name: Academia virtual
-  link: /academiavirtual.html
 - name: Empresas
   link: /empresas.html
+- name: Academia virtual
+  link: /academiavirtual.html
 - name: Podcast & Blog
   link: /podcastyblog.html
 
