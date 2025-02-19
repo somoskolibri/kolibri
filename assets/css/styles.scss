@@ -126,6 +126,13 @@
   border: none;
 }
 
+//MENU
+
+#menu .nav-link.active, .navbar-nav .nav-link.show {
+  color: #BB0081 ;
+  font-weight: bold;
+}
+
 
 //PLANES
 #plan1_questions span{
