@@ -116,3 +116,9 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 5px; }
+
+#empresas_cifras .card {
+  border-width: 0; }
+
+#empresas_cifras .card .card-header {
+  border-width: 0; }
