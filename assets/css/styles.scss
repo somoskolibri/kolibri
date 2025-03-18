@@ -174,3 +174,35 @@
   border-width: 0;
   box-shadow: 5px 5px 5px #888888;
 }
+
+#empresas_programas_horiz .programa1, #empresas_programas_vert .programa1{
+  background-color: #0798b3;
+  color:white;
+  border-radius: 25px;
+  padding: 10px;
+
+}
+
+#empresas_programas_horiz .programa2, #empresas_programas_vert .programa2{
+  background-color: #004aad;
+  color:white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+
+#empresas_programas_horiz .protocolo1, #empresas_programas_vert .protocolo1{
+  background-color: #bb0081;
+  color:white;
+  border-radius: 25px;
+  padding: 10px;
+
+}
+
+#empresas_programas_horiz .protocolo2, #empresas_programas_vert .protocolo2{
+  background-color: #8c52ff;
+  color:white;
+  border-radius: 25px;
+  padding: 10px;
+
+}
