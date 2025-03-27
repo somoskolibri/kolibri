@@ -4,8 +4,7 @@
   link: /planes.html
 - name: Empresas
   link: /empresas.html
-- name: Club virtual
-  link: /clubvirtual.html
-- name: Podcast & Blog
-  link: /podcastyblog.html
-
+#- name: Club virtual
+#  link: /clubvirtual.html
+#- name: Podcast & Blog
+#  link: /podcastyblog.html
