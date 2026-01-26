@@ -1,2 +1,26 @@
-title: SomosKolibri
-description: Coaching de vida y coherencia interior.
+title: SomosKolibri - Coaching de Vida
+description: Desarrollo humano, liderazgo consciente y crecimiento interior para personas y culturas empresariales.
+author: SomosKolibrí
+
+url: "https://www.somoskolibri.com"
+baseurl: "" # dejar vacío si es dominio principal
+
+# Idioma
+lang: es
+
+# SEO básico
+timezone: America/Guayaquil
+markdown: kramdown
+
+# Evitar errores comunes
+exclude:
+  - README.md
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+# Redes (opcional)
+social:
+  instagram: https://www.instagram.com/somoskolibri
+  youtube: https://www.youtube.com/@somoskolibri
+  linkedin: https://www.linkedin.com/company/somoskolibri

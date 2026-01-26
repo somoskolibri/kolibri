@@ -1,0 +1,45 @@
+---
+---
+
+#menu .nav-link.active, #menuMobile .nav-link.active{
+  color: #ee3364 ;
+  font-weight: bold;
+}
+
+.somoskolibri_green{
+  color:#00d876;
+}
+
+.somoskolibri_gray{
+  color: #393839;
+}
+
+.customers_height{
+  height: 90px;
+}
+
+.hidden {
+  display: none;
+}
+
+.somoskolibri_footer{
+  background-image: url('../images/footer_background.png');
+}
+
+
+//Sobreescribiendo clases de la plantilla comprada
+
+//Para el index, la primer sección, para que el botón cambie
+.vlt-btn--primary:not(.vlt-btn--effect):hover
+{
+    background-color: #00d876;
+}
+.vlt-btn--primary::after
+{
+    background-color: #00d876;
+}
+
+//Para el index, la sección donde estan las cifras
+.vlt-progress-bar__bar span{
+  background-color: #ee3364;
+}

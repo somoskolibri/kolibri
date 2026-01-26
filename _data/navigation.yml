@@ -1,10 +1,10 @@
 - name: Inicio
   link: /
-- name: Planes 1:1
-  link: /planes.html
-- name: Empresas
+- name: Programas Empresas
   link: /empresas.html
-#- name: Club virtual
-#  link: /clubvirtual.html
-#- name: Podcast & Blog
-#  link: /podcastyblog.html
+- name: Planes 1 a 1
+  link: /planes.html
+- name: ¿Eres life coach?
+  link: /unete.html
+- name: Acerca de
+  link: /acercade.html
