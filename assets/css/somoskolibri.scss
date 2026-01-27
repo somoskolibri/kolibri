@@ -26,8 +26,31 @@
   background-image: url('../images/footer_background.png');
 }
 
+//Para la pagina de programas empresas cree un boton redondo para enviar a whatsapp
+.icon-circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #ee3364; /* color del círculo */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-//Sobreescribiendo clases de la plantilla comprada
+.icon-circle i {
+  color: #fff; /* color del ícono */
+  margin-left: 5px;
+}
+
+/* Hover */
+.icon-circle:hover {
+  background-color: #00d876; /* color hover */
+}
+
+
+//-----------Sobreescribiendo clases de la plantilla comprada
 
 //Para el index, la primer sección, para que el botón cambie
 .vlt-btn--primary:not(.vlt-btn--effect):hover
@@ -42,4 +65,25 @@
 //Para el index, la sección donde estan las cifras
 .vlt-progress-bar__bar span{
   background-color: #ee3364;
+}
+
+//Para la página de programas empresariales 
+.vlt-large-heading
+{
+    font-size: 70px;
+}
+
+@media (max-width: 767px)
+{
+    .vlt-large-heading
+    {
+        font-size: 60px;
+    }
+}
+@media (max-width: 575px)
+{
+    .vlt-large-heading
+    {
+        font-size: 48px;
+    }
 }

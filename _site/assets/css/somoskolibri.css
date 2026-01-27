@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #menu .nav-link.active, #menuMobile .nav-link.active {
   color: #ee3364;
   font-weight: bold; }
@@ -17,6 +18,28 @@
 .somoskolibri_footer {
   background-image: url("../images/footer_background.png"); }
 
+.icon-circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #ee3364;
+  /* color del círculo */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer; }
+
+.icon-circle i {
+  color: #fff;
+  /* color del ícono */
+  margin-left: 5px; }
+
+/* Hover */
+.icon-circle:hover {
+  background-color: #00d876;
+  /* color hover */ }
+
 .vlt-btn--primary:not(.vlt-btn--effect):hover {
   background-color: #00d876; }
 
@@ -25,3 +48,13 @@
 
 .vlt-progress-bar__bar span {
   background-color: #ee3364; }
+
+.vlt-large-heading {
+  font-size: 70px; }
+
+@media (max-width: 767px) {
+  .vlt-large-heading {
+    font-size: 60px; } }
+@media (max-width: 575px) {
+  .vlt-large-heading {
+    font-size: 48px; } }

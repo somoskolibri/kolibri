@@ -40,7 +40,7 @@
 
 
 	<meta charset="utf-8">
-    <title>Página no encontrada | Inicio</title>
+    <title>SomosKolibri | Página no encontrada</title>
 
     <meta name="description" content="Bienestar emocional y Empoderamiento con hábitos conscientes. Programas Empresariales y Planes personales">
     <meta name="googlebot" content="notranslate">
@@ -283,43 +283,6 @@
 
 		})(jQuery);
 	</script>-->
-
-	<!-- Formulario de contacto de la página principal -->
-	 <script
-		type="text/javascript"
-		src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-	</script>
-
-	<script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-              publicKey: "RCYHZloOmsUd-ZnVd",
-            });
-        })();
-    </script>
-
-	<script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contactanos_form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm('serv_somoskolibri', 'templ_contactanos', this)
-                    .then(() => {
-                        console.log('SUCCESS!');
-						document.getElementById('contactForm_error').classList.add('hidden');
-						document.getElementById('contactForm_success').classList.remove('hidden');
-						setTimeout(() => {
-							document.getElementById('contactForm_success').classList.add('hidden');
-						}, 5000);
-						this.reset();
-                    }, (error) => {
-                        console.log('FAILED!', error);
-						document.getElementById('contactForm_error').classList.remove('hidden');
-                    });
-            });
-        }
-    </script>
 
 </body>
 
