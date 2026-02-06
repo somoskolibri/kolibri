@@ -87,3 +87,13 @@
         font-size: 38px;
     }
 }
+
+//Para la pagina de planes 
+@media (max-width: 767px)
+{
+    .vlt-single-post__header--style-1 .vlt-post-title,
+    .vlt-single-post__header--style-2 .vlt-post-title
+    {
+        font-size: 38px;
+    }
+}
