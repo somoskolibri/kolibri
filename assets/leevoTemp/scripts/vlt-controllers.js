@@ -1749,7 +1749,7 @@
 			parallax: true,
 			autoHeight: true,
 			autoplay: {
-				delay: 5000,
+				delay: 1500000,
 				disableOnInteraction: false
 			},
 			navigation: {
