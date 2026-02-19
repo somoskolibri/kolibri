@@ -4,7 +4,7 @@
   link: /empresas.html
 - name: Planes 1 a 1
   link: /planes.html
-#- name: ¿Eres life coach?
-#  link: /unete.html
-#- name: Acerca de
-#  link: /acercade.html
+- name: ¿Eres life coach?
+  link: /unete.html
+- name: Acerca de
+  link: /acercade.html
