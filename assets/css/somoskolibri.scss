@@ -50,6 +50,11 @@
 }
 
 
+#planes_introduccion p{
+  text-align: justify;
+}
+
+
 //-----------Sobreescribiendo clases de la plantilla comprada
 
 //Para el index, la primer sección, para que el botón cambie
@@ -88,7 +93,7 @@
     }
 }
 
-//Para la pagina de planes 
+//PAGINA DE PLANES
 @media (max-width: 767px)
 {
     .vlt-single-post__header--style-1 .vlt-post-title,
@@ -99,9 +104,108 @@
 }
 
 //Para el slide de testimonios 
-
-
 .vlt-testimonial-slider--style-1 .vlt-swiper-pagination
 {
     margin-top: 10px;
 }
+
+//Para la sección de life coaches, que se vea el icono de instagram
+
+#planes_lifecoaches a
+{
+    font-size: 0; 
+
+    position: relative;
+
+    display: block;
+
+    padding-top: 100%;
+}
+
+#planes_lifecoaches a::after,
+#planes_lifecoaches a::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -webkit-transition-property: all;
+            transition-property: all;
+
+    opacity: 0;
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+#planes_lifecoaches a::before
+{
+    opacity: 0;
+    background-color: #00bec5;
+}
+#planes_lifecoaches a::after
+{
+    font-family: FontAwesome;
+    font-size: 35px;
+
+    content: '\f0e1'; //linkedin
+    -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+            transform: translateY(100%); 
+
+    color: #fff;
+}
+
+#planes_lifecoaches a img
+{
+    font-family: 'object-fit: cover;';
+
+    position: absolute;
+    z-index: -1; 
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#planes_lifecoaches a:hover::before
+{
+    opacity: .8;
+}
+
+#planes_lifecoaches a:hover::after
+{
+    -webkit-transition-delay: 100ms;
+            transition-delay: 100ms; 
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+
+
