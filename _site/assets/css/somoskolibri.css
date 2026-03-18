@@ -43,6 +43,9 @@
 #planes_introduccion p {
   text-align: justify; }
 
+.iniciar_con_mayuscula {
+  text-transform: none !important; }
+
 .vlt-btn--primary:not(.vlt-btn--effect):hover {
   background-color: #00d876; }
 
