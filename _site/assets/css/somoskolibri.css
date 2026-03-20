@@ -84,13 +84,6 @@
 @media (max-width: 575px) {
   .vlt-large-heading {
     font-size: 38px; } }
-@media (max-width: 767px) {
-  .vlt-single-post__header--style-1 .vlt-post-title,
-  .vlt-single-post__header--style-2 .vlt-post-title {
-    font-size: 38px; } }
-.vlt-testimonial-slider--style-1 .vlt-swiper-pagination {
-  margin-top: 10px; }
-
 #planes_lifecoaches .linkedin {
   font-size: 0;
   position: relative;
@@ -162,3 +155,10 @@
 
 #planes_lifecoaches .enlaceInstagram {
   color: #00d876; }
+
+@media (max-width: 767px) {
+  .vlt-single-post__header--style-1 .vlt-post-title,
+  .vlt-single-post__header--style-2 .vlt-post-title {
+    font-size: 38px; } }
+.vlt-testimonial-slider--style-1 .vlt-swiper-pagination {
+  margin-top: 10px; }

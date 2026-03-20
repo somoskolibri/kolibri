@@ -30,7 +30,7 @@
   background-image: url('../images/footer_background.png');
 }
 
-//Para la pagina de programas empresas cree un boton redondo para enviar a whatsapp
+//Para la pagina de programas empresas y planes cree un boton redondo para enviar a whatsapp
 .icon-circle {
   width: 55px;
   height: 55px;
@@ -124,24 +124,9 @@
     }
 }
 
-//PAGINA DE PLANES
-@media (max-width: 767px)
-{
-    .vlt-single-post__header--style-1 .vlt-post-title,
-    .vlt-single-post__header--style-2 .vlt-post-title
-    {
-        font-size: 38px;
-    }
-}
 
-//Para el slide de testimonios 
-.vlt-testimonial-slider--style-1 .vlt-swiper-pagination
-{
-    margin-top: 10px;
-}
 
-//Para la sección de life coaches, que se vea el icono de instagram
-
+//Para la sección de life coaches en la sección de EMPRESSAS, que se vea el icono de instagram
 #planes_lifecoaches .linkedin
 {
     font-size: 0;
@@ -239,5 +224,25 @@
 #planes_lifecoaches .enlaceInstagram{
     color: #00d876 ;
 }
+
+
+
+//PAGINA DE PLANES
+@media (max-width: 767px)
+{
+    .vlt-single-post__header--style-1 .vlt-post-title,
+    .vlt-single-post__header--style-2 .vlt-post-title
+    {
+        font-size: 38px;
+    }
+}
+
+//Para el slide de testimonios 
+.vlt-testimonial-slider--style-1 .vlt-swiper-pagination
+{
+    margin-top: 10px;
+}
+
+
 
 
