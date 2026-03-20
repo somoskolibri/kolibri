@@ -3,6 +3,9 @@
   color: #ee3364;
   font-weight: bold; }
 
+.somoskolibri_pink {
+  color: #ee3364; }
+
 .somoskolibri_green {
   color: #00d876; }
 
@@ -46,6 +49,23 @@
 .iniciar_con_mayuscula {
   text-transform: none !important; }
 
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; }
+
+.whatsapp-btn svg {
+  width: 35px;
+  height: 35px; }
+
 .vlt-btn--primary:not(.vlt-btn--effect):hover {
   background-color: #00d876; }
 
@@ -71,14 +91,14 @@
 .vlt-testimonial-slider--style-1 .vlt-swiper-pagination {
   margin-top: 10px; }
 
-#planes_lifecoaches a {
+#planes_lifecoaches .linkedin {
   font-size: 0;
   position: relative;
   display: block;
   padding-top: 100%; }
 
-#planes_lifecoaches a::after,
-#planes_lifecoaches a::before {
+#planes_lifecoaches .linkedin::after,
+#planes_lifecoaches .linkedin::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -105,11 +125,11 @@
   -ms-flex-pack: center;
   justify-content: center; }
 
-#planes_lifecoaches a::before {
+#planes_lifecoaches .linkedin::before {
   opacity: 0;
   background-color: #00bec5; }
 
-#planes_lifecoaches a::after {
+#planes_lifecoaches .linkedin::after {
   font-family: FontAwesome;
   font-size: 35px;
   content: '\f0e1';
@@ -118,7 +138,7 @@
   transform: translateY(100%);
   color: #fff; }
 
-#planes_lifecoaches a img {
+#planes_lifecoaches .linkedin img {
   font-family: 'object-fit: cover;';
   position: absolute;
   z-index: -1;
@@ -129,13 +149,16 @@
   -o-object-fit: cover;
   object-fit: cover; }
 
-#planes_lifecoaches a:hover::before {
+#planes_lifecoaches .linkedin:hover::before {
   opacity: .8; }
 
-#planes_lifecoaches a:hover::after {
+#planes_lifecoaches .linkedin:hover::after {
   -webkit-transition-delay: 100ms;
   transition-delay: 100ms;
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
   opacity: 1; }
+
+#planes_lifecoaches .enlaceInstagram {
+  color: #00d876; }
