@@ -764,8 +764,9 @@ title: Inicio
                             <input class="vlt-form-control vlt-border-white" type="text" placeholder="Empresa" name="your-company" size="30" required>
                         </div>
                         <div class="vlt-form-group">
-                            <textarea class="vlt-form-control vlt-border-white" cols="40" rows="1" placeholder="Estoy interesad@ en..." name="your-message" style="resize: none;"></textarea>
+                            <textarea class="vlt-form-control vlt-border-white" cols="40" rows="1" placeholder="Estoy interesad@ en..." name="your-message" style="resize: none;" required></textarea>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LcjXfcsAAAAAFMAdFbwkKi1G10G2HkETrDsf5Ue"></div>
                         <!--Button-->
                         <button class="vlt-btn vlt-btn--primary vlt-btn--lg vlt-btn--effect"><span>Enviar mensaje</span></button>
                         <div class="vlt-gap-10"></div>
@@ -815,6 +816,8 @@ title: Inicio
             });
         })();
     </script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 	<script type="text/javascript">
         window.onload = function() {
